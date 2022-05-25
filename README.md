@@ -1,3 +1,46 @@
+
+### Github App
+Write a simple web application using ReactJS. You may use React seed projects to bootstrap your application. You do not have to build the user interface identically, the look will depend on which UI libraries you use if any (Bootstrap, etc.).
+
+Here is a YouTube video of the complete web application.
+
+
+Application Data
+The application should use GitHub public API to get information about GitHub users.
+
+You will retrieve information for a specific user by sending a GET request to: https://api.github.com/users/{{ user's GitHub name }}
+
+Follow the documentation https://docs.github.com/en/rest/reference/users#get-a-user for more details.
+
+
+Requirements
+1. The application must have two screens, Home and Person (Mockups provided below).
+
+Home screen should only list the Top 5 GitHub usernames: "GrahamCampbell","fabpot","weierophinney","rkh","josh".
+Person screen should show full name, avatar, and location for a given username.
+2. The application must be mobile responsive.
+
+3. You should not work more than 90 minutes on this assessment.
+
+4. Your code must be bug-free.
+
+
+
+The candidate will be evaluated for:
+Completion of the functionality.
+Accuracy of the design (UI/UX). Although you don't have to build an exact similar interface as presented on the mockups, we expect a modern, user-friendly and responsive UI.
+Code structure and strategy used.
+Code cleanliness.
+
+
+Mockups:
+
+Home - Web
+Person - Web
+Home - Mobile
+Person - Mobile 
+You may use those Figma designs to get any colors, measurements, padding, etc.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
